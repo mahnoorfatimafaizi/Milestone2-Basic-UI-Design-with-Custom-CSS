@@ -1,0 +1,91 @@
+main {
+  background: linear-gradient(to right, #02a9f7, #89d6fb);
+}
+.container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+}
+
+.aboutSection {
+  margin-bottom: 40px;
+}
+
+.aboutSection h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.aboutSection p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.contactSection {
+  margin-bottom: 40px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #005f99;
+}
+
+.followUsSection {
+  margin-bottom: 40px;
+}
+
+.followUsSection h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.followUsSection ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.followUsSection li {
+  margin-bottom: 10px;
+}
+
+.followUsSection a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.followUsSection a:hover {
+  text-decoration: underline;
+}
