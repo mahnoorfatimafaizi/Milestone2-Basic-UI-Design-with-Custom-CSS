@@ -5,7 +5,7 @@ export default function Footer() {
     <footer>
       <div>
         <div>
-          <img src="./images/logo.avif" alt="logo" />
+          <img src="./images/logo.jpg" alt="logo" />
         </div>
         <div>
           <p>
